@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.wolterskluwer.gpo.ace.chatbot.apiai.webhook.HelloWorldConfiguration --server.port=$PORT
+web: java $JAVA_OPTS -jar target/chatbot-apiai-webhook-1.5.2.RELEASE.jar --server.port=$PORT

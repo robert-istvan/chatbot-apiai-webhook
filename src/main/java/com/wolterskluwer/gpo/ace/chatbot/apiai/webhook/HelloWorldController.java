@@ -17,4 +17,11 @@ public class HelloWorldController {
 
         return new WebhookResponse("Hello! " + obj, "Text " + obj);
     }
+    
+    @RequestMapping(method = RequestMethod.GET)
+    public @ResponseBody String webhook(){
+
+
+        return "Hello world!";
+    }
 }

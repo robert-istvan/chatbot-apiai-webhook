@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/chatbot-apiai-webhook-1.5.2.RELEASE.jar --server.port=$PORT
+web: java $JAVA_OPTS -jar chatbot-apiai-webhook-app-1.0.0-SNAPSHOT.jar --server.port=$PORT

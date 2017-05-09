@@ -6,9 +6,6 @@
 	<groupId>com.wolterskluwer.gpo.ace</groupId>
     <artifactId>chatbot-apiai-webhook</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-	
 
 	<name>chatbot-apiai-webhook</name>
-
-
 </project>
